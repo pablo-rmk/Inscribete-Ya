@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: calc(0.5em + 0.5vw);
+}
+
+body {
+    background: linear-gradient(to right, #1d5fb6, #45cfe9);
+}
+
+#div-uno {
+    margin-top: 5vh;
+}
+
+#div-tres {
+    width: 85%;
+}
+
+.body-card {
+    height: 45vh;
+    background-color: rgb(231, 231, 231);
+}
+
+p {
+    text-align: justify;
+}
+
+.btn {
+    background-color: #2aa1bf;
+    border-color: #2aa1bf;
+}
+
+.btn,
+.form-input {
+    border-radius: 0px;
+}
+
+.form-input::placeholder {
+    color: rgb(175, 175, 175);
+
+}
