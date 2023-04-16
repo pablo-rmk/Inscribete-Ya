@@ -14,9 +14,10 @@ $('document').ready(function () {
 let fechaActual = () => {
 
     const fecha = new Date();
+
     let year = fecha.getFullYear();
     let month = fecha.getMonth() + 1;
-    let day = fecha.getDay() + 9;
+    let day = fecha.getDate();
 
     if (day < 10){
         day = '0' + day;
